@@ -1,0 +1,27 @@
+//div for time remaining countdown
+//Div for Question
+//Div for answers (one marked as correct)
+
+//QUESTIONS/ANSWER OBJECTS in AN ARRAY
+
+//NEXTQUESTION()...will pop question object out of array of question/answers
+
+//IF CORRECT ANSWER CHOSEN
+    //CONGRATS
+    //CORRECTANSWERS++
+    //SETTIMEOUT OR SETALERT?...AFTER FEW SECONDS....NEXTQUESTION()
+
+
+//IF THEY GET IT WRONG OR RUN OUT OF TIME
+    //INCORRECTANSWERS++
+     ///DISPLAY WRRONG OT TIME UPS
+    //DISPLAY CORRECT ANSWER
+    //WAIT FEW SEC
+    //NEXTQUESTION()
+
+
+
+//WHEN QUESTIONANSWERS ARRAY ISMEPTY()
+    //SHOW TOTAL RIGHT AND WRONG
+    //DISPLAY RESTART OPTION
+        //WHICH RESETS CORRECT AND INCORRECT VARIABLES....AND RESETS QA Array...and then run NEXTQUESTION?
