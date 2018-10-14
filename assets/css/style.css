@@ -2,9 +2,15 @@
     background-color: black;
 }
 
-header {
-    height: 10%;
-}
 footer {
     height: 30%;
+}
+
+img {
+    height: 300px;
+}
+
+.ans {
+    position: relative;
+    z-index: 1000;
 }
