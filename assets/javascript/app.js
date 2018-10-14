@@ -93,6 +93,7 @@ $(document).ready(function () {
         }
 
         var currentImg = $("<img>").attr("src", currentQuestion.pic)
+        currentImg.addClass("img-responsive")
         $("#rightDiv").append(currentImg)
     }
 
