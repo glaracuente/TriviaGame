@@ -60,6 +60,7 @@ $(document).ready(function () {
             currentTimeRemaining = 20
             currentQuestion = questionArray.pop()
             displayCurrentQA()
+            $("#timer").text("Time Remaining: 20")
             timer = setInterval(function () { countDown(); }, 1000);
         }
     }
