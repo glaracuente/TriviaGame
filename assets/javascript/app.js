@@ -6,11 +6,11 @@ var questions;
 var answers;
 var questionArray;
 
-var numOfQuestions = 2;
-var question0 = { q: "Who is Rachel's boyfriend?", a0: "Ross", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Ross", pic: "assets/images/coffeenotforme.jpg" }
-var question1 = { q: "Who is Ross's girlfriend?", a0: "Phoebe", a1: "Rachel", a2: "Janice", a3: "Monica", aC: "Rachel", pic: "assets/images/unagi.jpg" }
-var question2 = { q: "Who is Ross's girlfriend?", a0: "Phoebe", a1: "Rachel", a2: "Janice", a3: "Monica", aC: "Rachel", pic: "assets/images/unagi.jpg" }
-var question3 = { q: "Who is Ross's girlfriend?", a0: "Phoebe", a1: "Rachel", a2: "Janice", a3: "Monica", aC: "Rachel", pic: "assets/images/unagi.jpg" }
+var numOfQuestions = 4;
+var question0 = { q: "Who is Rachel's boyfriend?", a0: "Ross", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Ross", pic: "assets/images/wewereonabreak.jpg" }
+var question1 = { q: "Who is Chandler's girlfriend?", a0: "Phoebe", a1: "Rachel", a2: "Janice", a3: "Amanda", aC: "Janice", pic: "assets/images/janice.jpg" }
+var question2 = { q: "Who is Ross's friend from college?", a0: "Daniel", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Chandler", pic: "assets/images/yemn.jpg" }
+var question3 = { q: "Who is Ross's alternate ego with an anger problem", a0: "Hulk Ross", a1: "Red Ross", a2: "Raging Ross", a3: "The Bull", aC: "Red Ross", pic: "assets/images/mysandwhich.jpg" }
 
 
 //coffeenotforme.jpg
@@ -18,12 +18,9 @@ var question3 = { q: "Who is Ross's girlfriend?", a0: "Phoebe", a1: "Rachel", a2
 //footer.jpg
 //gellercup.jpg
 //igotoffplane.jpg
-//janice.jpg
 //joeyfood.jpg
 //monicaclean.jpg
-//mysandwhich.jpg
 //nubbin.jpg
-//oerk.jpg
 //pivot.jpg
 //regina.jpg
 //thereforyou.jpg
@@ -31,8 +28,6 @@ var question3 = { q: "Who is Ross's girlfriend?", a0: "Phoebe", a1: "Rachel", a2
 //unagi.jpg
 //unagi2.jpg
 //unagi3.jpg
-//wewereonabreak.jpg
-//yemn.jpg
 
 
 
