@@ -18,6 +18,13 @@ img {
     height: 300px;
 }
 
+@media screen and (min-width: 800px) {
+    .img-custom {
+        max-height: 100px;
+        width: 100%
+    }
+}
+
 .hintImg {
     height: 300px;
     width: 200px;
