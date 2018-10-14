@@ -5,6 +5,7 @@ var currentQuestion;
 var questions;
 var answers;
 var questionArray;
+var timer;
 
 var numOfQuestions = 10;
 var question0 = { q: "Who is Rachel's boyfriend?", a0: "Ross", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Ross", pic: "assets/images/wewereonabreak.jpg" }
@@ -17,7 +18,6 @@ var question6 = { q: "Joey plays an actor's butt in a movie...name that actor!",
 var question7 = { q: "Who never falls in love with Rachel?", a0: "Ross", a1: "Chandler", a2: "Joey", a3: "Gunther", aC: "Chandler", pic: "assets/images/coffeenotforme.jpg" }
 var question8 = { q: "Which one is NOT one of Phoebe's jobs?", a0: "Taxi Driver", a1: "Masseuse", a2: "Musician", a3: "Painter", aC: "Painter", pic: "assets/images/regina.jpg" }
 var question9 = { q: "On what holiday is the football game played?", a0: "Christmas", a1: "Halloween", a2: "Thanksgiving", a3: "July 4th", aC: "Thanksgiving", pic: "assets/images/gellercup.jpg" }
-
 
 
 
@@ -60,7 +60,7 @@ $(document).ready(function () {
             currentTimeRemaining = 20
             currentQuestion = questionArray.pop()
             displayCurrentQA()
-            setTimeout(countDown, 1000);
+            timer = setInterval(function () { countDown(); }, 1000);
         }
     }
 
@@ -85,10 +85,9 @@ $(document).ready(function () {
         if (questionArray.length === 0) {
             return;
         }
+
         currentTimeRemaining--;
-        if (currentTimeRemaining > 0) {
-            setTimeout(countDown, 1000);
-        }
+
         if (currentTimeRemaining <= 0) {
             gotItWrong()
         }
@@ -113,6 +112,7 @@ $(document).ready(function () {
 
     var gotItRight = function () {
         console.log("gotItRight")
+        clearInterval(timer)
         $("#rightDiv").empty()
         $("#rightDiv").html("<p>Your answer was CORRECT!</p>" +
             "<p>" + currentQuestion.aC + "</p>")
@@ -122,6 +122,7 @@ $(document).ready(function () {
 
     var gotItWrong = function () {
         console.log("gotItWrong")
+        clearInterval(timer)
         $("#rightDiv").empty()
         $("#rightDiv").html("<p>Your answer was WRONG or you were too slow!</p>" +
             "<p>The correct answer was:</p>" +
