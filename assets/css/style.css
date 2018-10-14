@@ -2,6 +2,14 @@
     background-color: black;
 }
 
+.bg-custom {
+    background-color: rgb(1, 133, 104);
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 footer {
     height: 30%;
 }
@@ -10,7 +18,22 @@ img {
     height: 300px;
 }
 
-.ans {
-    position: relative;
-    z-index: 1000;
-}
+.restartButton {
+    background-color: rgb(112, 112, 112);
+    border: solid 1px black;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  button:hover {
+    font-weight: bold;
+  }
+
+  .ans:hover {
+    font-weight: bold;
+    background-color: grey;
+  }

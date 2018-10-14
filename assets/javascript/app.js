@@ -38,10 +38,10 @@ $(document).ready(function () {
 
         $("#timer").html("<p>GAME OVER</p>")
 
-
-        //DISPLAY RESTART OPTION
-        //WHICH RESETS CORRECT AND INCORRECT VARIABLES....AND RESETS QA Array...and then run NEXTQUESTION?
+        var restartBtn = $("<button>").addClass("restartButton").text("Restart")
+        $("#timer").append(restartBtn)
     }
+
 
     var nextQuestion = function () {
         console.log("nextQuestion")
@@ -73,7 +73,6 @@ $(document).ready(function () {
     }
 
     var countDown = function () {
-        console.log("countdown")
         if (questionArray.length === 0) {
             return;
         }
@@ -96,6 +95,8 @@ $(document).ready(function () {
         for (var i = 0; i < numOfQuestions; i++) {
             questionArray[i] = eval("question" + i)
         }
+
+        $("#timer").text("Time Remaining: 20")
 
         shuffle(questionArray)
         nextQuestion()
@@ -128,17 +129,27 @@ $(document).ready(function () {
     // $(".ans").on("click", function () {
     //WHY DIDN"T THIS WORK THE SAME!?
     // });
+    //NEED TO STOP CLICKS FROM WORKING IN BETWEEN ROU
 
     $(document).on("click", '.ans', function () {
         console.log("click")
         var chosenAnswer = $(this).text()
         if (chosenAnswer === currentQuestion.aC) {
+            $("#answers").empty()
             gotItRight()
         }
         else {
+            $("#answers").empty()
             gotItWrong()
         }
     });
+
+    $(document).on("click", '.restartButton', function () {
+        startGame();
+    });
+   
+
+
 
 })
 
