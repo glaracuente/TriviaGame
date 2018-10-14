@@ -18,6 +18,11 @@ img {
     height: 300px;
 }
 
+.hintImg {
+    height: 300px;
+    width: 200px;
+}
+
 .restartButton {
     background-color: rgb(112, 112, 112);
     border: solid 1px black;
