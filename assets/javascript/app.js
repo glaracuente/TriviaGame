@@ -6,27 +6,17 @@ var questions;
 var answers;
 var questionArray;
 
-var numOfQuestions = 5;
+var numOfQuestions = 10;
 var question0 = { q: "Who is Rachel's boyfriend?", a0: "Ross", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Ross", pic: "assets/images/wewereonabreak.jpg" }
 var question1 = { q: "Who is Chandler's girlfriend?", a0: "Phoebe", a1: "Rachel", a2: "Janice", a3: "Amanda", aC: "Janice", pic: "assets/images/janice.jpg" }
 var question2 = { q: "Who is Ross's friend from college?", a0: "Daniel", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Chandler", pic: "assets/images/yemn.jpg" }
 var question3 = { q: "Who is Ross's alternate ego with an anger problem?", a0: "Hulk Ross", a1: "Red Ross", a2: "Raging Ross", a3: "The Bull", aC: "Red Ross", pic: "assets/images/mysandwhich.jpg" }
 var question4 = { q: "What does Unagi stand for?", a0: "Shrimp Roll", a1: "Alaskin Roll", a2: "Salmon Skin Roll", a3: "Sushi Mama", aC: "Salmon Skin Roll", pic: "assets/images/unagi2.jpg" }
-
-
-//coffeenotforme.jpg
-//door.jpg
-//footer.jpg
-//gellercup.jpg
-//igotoffplane.jpg
-//joeyfood.jpg
-//monicaclean.jpg
-//nubbin.jpg
-//pivot.jpg
-//regina.jpg
-//thereforyou.jpg
-//umbrellas.jpg
-
+var question5 = { q: "What was Monica’s nickname when she was a field hockey goalie?", a0: "Biggie Smalls", a1: "Big Fat Goalie", a2: "Food Goals", a3: "The Wall", aC: "Big Fat Goalie", pic: "assets/images/monicaclean.jpg" }
+var question6 = { q: "Joey plays an actor's butt in a movie...name that actor!", a0: "Denzel Washington", a1: "Robert Dinero", a2: "Al Pacino", a3: "Joey Diaz", aC: "Al Pacino", pic: "assets/images/joeyfood.jpg" }
+var question7 = { q: "Who never falls in love with Rachel?", a0: "Ross", a1: "Chandler", a2: "Joey", a3: "Gunther", aC: "Chandler", pic: "assets/images/coffeenotforme.jpg" }
+var question8 = { q: "Which one is NOT one of Phoebe's jobs?", a0: "Taxi Driver", a1: "Masseuse", a2: "Musician", a3: "Painter", aC: "Painter", pic: "assets/images/regina.jpg" }
+var question9 = { q: "On what holiday is the football game played?", a0: "Christmas", a1: "Halloween", a2: "Thanksgiving", a3: "July 4th", aC: "Thanksgiving", pic: "assets/images/gellercup.jpg" }
 
 
 
