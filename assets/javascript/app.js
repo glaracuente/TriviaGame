@@ -13,6 +13,30 @@ var question2 = { q: "Who is Ross's girlfriend?", a0: "Phoebe", a1: "Rachel", a2
 var question3 = { q: "Who is Ross's girlfriend?", a0: "Phoebe", a1: "Rachel", a2: "Janice", a3: "Monica", aC: "Rachel", pic: "assets/images/unagi.jpg" }
 
 
+//coffeenotforme.jpg
+//door.jpg
+//footer.jpg
+//gellercup.jpg
+//igotoffplane.jpg
+//janice.jpg
+//joeyfood.jpg
+//monicaclean.jpg
+//mysandwhich.jpg
+//nubbin.jpg
+//oerk.jpg
+//pivot.jpg
+//regina.jpg
+//thereforyou.jpg
+//umbrellas.jpg
+//unagi.jpg
+//unagi2.jpg
+//unagi3.jpg
+//wewereonabreak.jpg
+//yemn.jpg
+
+
+
+
 $(document).ready(function () {
 
     // This function to shuffle array was taken from https://www.kirupa.com/html5/shuffling_array_js.htm
@@ -129,7 +153,6 @@ $(document).ready(function () {
     // $(".ans").on("click", function () {
     //WHY DIDN"T THIS WORK THE SAME!?
     // });
-    //NEED TO STOP CLICKS FROM WORKING IN BETWEEN ROU
 
     $(document).on("click", '.ans', function () {
         console.log("click")
