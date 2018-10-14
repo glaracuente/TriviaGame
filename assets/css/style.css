@@ -23,6 +23,13 @@ img {
     width: 200px;
 }
 
+@media screen and (max-width: 450px) {
+    .hintImg {
+        height: 260px;
+        width: 180px;
+    }
+}
+
 .restartButton {
     background-color: rgb(112, 112, 112);
     border: solid 1px black;
@@ -32,13 +39,13 @@ img {
     text-align: center;
     text-decoration: none;
     font-size: 12px;
-  }
+}
 
-  button:hover {
+button:hover {
     font-weight: bold;
-  }
+}
 
-  .ans:hover {
+.ans:hover {
     font-weight: bold;
     background-color: grey;
-  }
+}

@@ -6,11 +6,12 @@ var questions;
 var answers;
 var questionArray;
 
-var numOfQuestions = 4;
+var numOfQuestions = 5;
 var question0 = { q: "Who is Rachel's boyfriend?", a0: "Ross", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Ross", pic: "assets/images/wewereonabreak.jpg" }
 var question1 = { q: "Who is Chandler's girlfriend?", a0: "Phoebe", a1: "Rachel", a2: "Janice", a3: "Amanda", aC: "Janice", pic: "assets/images/janice.jpg" }
 var question2 = { q: "Who is Ross's friend from college?", a0: "Daniel", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Chandler", pic: "assets/images/yemn.jpg" }
-var question3 = { q: "Who is Ross's alternate ego with an anger problem", a0: "Hulk Ross", a1: "Red Ross", a2: "Raging Ross", a3: "The Bull", aC: "Red Ross", pic: "assets/images/mysandwhich.jpg" }
+var question3 = { q: "Who is Ross's alternate ego with an anger problem?", a0: "Hulk Ross", a1: "Red Ross", a2: "Raging Ross", a3: "The Bull", aC: "Red Ross", pic: "assets/images/mysandwhich.jpg" }
+var question4 = { q: "What does Unagi stand for?", a0: "Shrimp Roll", a1: "Alaskin Roll", a2: "Salmon Skin Roll", a3: "Sushi Mama", aC: "Salmon Skin Roll", pic: "assets/images/unagi2.jpg" }
 
 
 //coffeenotforme.jpg
@@ -25,9 +26,7 @@ var question3 = { q: "Who is Ross's alternate ego with an anger problem", a0: "H
 //regina.jpg
 //thereforyou.jpg
 //umbrellas.jpg
-//unagi.jpg
-//unagi2.jpg
-//unagi3.jpg
+
 
 
 
