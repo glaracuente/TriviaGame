@@ -7,7 +7,7 @@ var answers;
 var questionArray;
 var timer;
 
-var numOfQuestions = 2;
+var numOfQuestions = 10;
 var question0 = { q: "Who is Rachel's boyfriend?", a0: "Ross", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Ross", pic: "assets/images/wewereonabreak.jpg" }
 var question1 = { q: "Who is Chandler's girlfriend?", a0: "Phoebe", a1: "Rachel", a2: "Janice", a3: "Amanda", aC: "Janice", pic: "assets/images/janice.jpg" }
 var question2 = { q: "Who is Ross's friend from college?", a0: "Daniel", a1: "Joey", a2: "Michael", a3: "Chandler", aC: "Chandler", pic: "assets/images/yemn.jpg" }
